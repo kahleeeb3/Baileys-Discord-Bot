@@ -36,7 +36,4 @@ async def change_status():
     
 
 # Gets bot token stored on heroku server
-#client.run(os.environ['BOT_TOKEN'])
- 
-# placed here for running the bot locally 
-client.run('ODA1NjI4MjM5MTYyNjM4MzM4.YBdpxA.GMcPSNVrkITznNT-_2TrL36Pmmg') 
+client.run(os.environ['BOT_TOKEN'])
