@@ -114,7 +114,7 @@ class Reminder(commands.Cog):
             
     @tasks.loop(seconds= 60)
     async def check(self):
-        channel_id = 695338082337161398
+        channel_id = 805620694456860714
         channel = self.client.get_channel(channel_id)
 
         async def check_time(curr_time,list):
