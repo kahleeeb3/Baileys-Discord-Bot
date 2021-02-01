@@ -6,7 +6,7 @@ from itertools import cycle
 
 # defines the prefix for all commands
 client = commands.Bot(command_prefix = '$')
-status = cycle( ['Charge Things'] )
+status = cycle( ['for Wednesday'] )
 
 # loads all folders within the cogs folder
 for folder in os.listdir('./cogs'):
