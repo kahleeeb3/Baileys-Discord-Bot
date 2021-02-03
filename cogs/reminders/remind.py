@@ -109,8 +109,7 @@ class Reminder(commands.Cog):
         def get_curr_time():   
             tz_NY = pytz.timezone('America/New_York') 
 
-            day_week = datetime.datetime.now().strftime('%a')
-        
+            day_week = datetime.datetime.now(tz_NY).strftime('%a')
             hour = datetime.datetime.now(tz_NY).strftime('%I')
             minute = datetime.datetime.now(tz_NY).strftime('%M')
             suffix = datetime.datetime.now(tz_NY).strftime('%p')
